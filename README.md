@@ -6,11 +6,17 @@ This project explores the long-term trends in solar activity using the last thre
 
 
 
+
+
+
 #### Data Source
 
 The data was collected from:
 
 https://github.com/jbrownlee/Datasets/blob/master/monthly-sunspots.csv
+
+
+
 
 
 
@@ -28,7 +34,10 @@ This project uses the following Python libraries:
 
 
 
-##### Installation
+
+
+
+#### Installation
 
 Install required python libraries:
 
@@ -36,7 +45,10 @@ pip install -r requirements.txt
 
 
 
-##### How to run
+
+
+
+#### How to run
 
 Execute the main script with:
 
@@ -44,7 +56,10 @@ py main.py
 
 
 
-##### Skills Demonstrated
+
+
+
+#### Skills Demonstrated
 
 -- Data cleaning and pre-processing
 
