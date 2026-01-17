@@ -31,11 +31,12 @@ ax1.grid(True,
          linestyle='--', 
          alpha=0.8)
 
+ax1.set_xlabel('Date')
+ax1.set_ylabel('Observed Sunspots')
 ax1.set_title('Observed Sunspots')
 
 ax2.plot(cycle_lengths_x, 
-         cycle_lengths, 
-         '-o', 
+         cycle_lengths, '-o', 
          label='Cycle Length', 
          color='orange')
 
@@ -43,8 +44,9 @@ ax2.grid(True,
          linestyle='--', 
          alpha=0.8)
 
+ax2.set_xlabel('Month Index')
+ax2.set_ylabel('Cycle Length')
 ax2.set_title('Solar Cycle Lengths')
 
 fig.canvas.manager.set_window_title('Observed Sunspots & Change in Solar Cycle Length')
-
 plt.show()
