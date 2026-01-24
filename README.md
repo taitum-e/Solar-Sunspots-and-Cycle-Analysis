@@ -51,7 +51,7 @@ pip install -r requirements.txt
 #### How to run
 
 Execute the main script with:
-
+cd sunspots-project
 py main.py
 
 
